@@ -1,0 +1,6 @@
+
+<div>
+  <input type="text" [(ngModel)]="username">
+  <p>{{ username }}</p>
+  <button (click)="onClear()" [disabled]="!username">Clear field</button>
+</div>
